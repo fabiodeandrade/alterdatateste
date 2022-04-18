@@ -1,0 +1,118 @@
+.formUser {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    border-radius: 15px;
+    border: 1px solid #D9E1E7CC;
+    width: 400px;
+    padding: 32px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.formUser h2 {
+    margin-bottom: .8rem;
+}
+
+.formUser input {
+    border: 2px solid #D9E1E7;
+    padding: 10px;
+    margin: .5rem;
+    border-radius: 10px;
+    width: 336px;
+    color: -internal-Light-dark(#D9E1E7);
+    
+    
+}
+
+.userRegister {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    
+}
+
+.infoBox {
+    background-color: #F1F4F9;
+    border: 1px solid #D9E1E7;
+    padding: 8px;
+    font-size: 11px;
+    border-radius: 10px;
+    margin: .5rem 0 ;
+    width: 336px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.infoBox p {
+    margin: .5rem;
+}
+
+.infoBox img {
+    margin-right: .3rem;
+}
+
+.radioHandle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;    
+    width: 336px;
+    font-size: 14px;
+    margin: 1rem 0;
+    
+}
+
+.radioHandle input {
+    width: 20px;
+}
+
+.registerButton {
+    width: 336px;
+    border: none;
+    background-color: #1AD598;
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all ease .6s;
+}
+
+.registerButton:hover {
+    background-color: #128f65;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    width: 336px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    
+}
+
+.cancelBtn button {
+    border: 1px solid #D9E1E7;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #D9E1E7;
+    transition: all ease .6s;
+}
+
+.cancelBtn button:hover {
+    cursor: pointer;
+    background-color: #EA3A3D;
+}
+
+.reset {
+    margin: .5rem 0;
+}
+
+

@@ -1,70 +1,166 @@
-# Getting Started with Create React App
+<div id="top"></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![LinkedIn][linkedin-shield]][linkedin]
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="">
+    <img src="./src/assets/cover.png" alt="Logo" height="520">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <h3 align="center">Teste Front End - Alterdata</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <p align="center">
+    An awesome portfolio that contains my career story.
+    <br />
+    <a href="***"><strong>Explore o código »</strong></a>
+    <br />
+    <br />
+    <a href="****">Veja uma demonstração</a>
+    ·
+    <a href="***">Reporte Problemas</a>
+    ·
+    <a href="***">Solicite novidades</a>
+  </p>
+</div>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Conteúdo</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">Sobre o projeto</a>
+      <ul>
+        <li><a href="#built-with">Construído com</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Inicie</a>
+      <ul>
+        <li><a href="#prerequisites">Pré-requisitos</a></li>
+        <li><a href="#installation">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usabilidade</a></li>
+    <!-- <li><a href="#roadmap">Roadmap</a></li> -->
+    <li><a href="#contributing">Contribuiçao</a></li>
+    <li><a href="#license">Licença</a></li>
+    <li><a href="#contact">Contato</a></li>
+    
+  </ol>
+</details>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Sobre o projeto -->
+## Sobre o Projeto
 
-### `npm run eject`
+O projeto consiste em criar uma página de gerenciamento de usuário, dando a possibilidade do administrador, criar, editar e apagar os registros de usuarios
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p align="right">(<a href="#top">Volte para o topo</a>)</p>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Construído com
 
-## Learn More
+Ele foi criado utilizando a versao 18 do React, assim como alguns componentes do Material Ui e também a utilização de rotas com o React Router Dom
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React.js](https://reactjs.org/)
+* [Material Ui](https://mui.com/pt/)
+* [React Router Dom](https://reactrouter.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<!-- Iniciando -->
+## Iniciando - Ambiente de desenvolvedor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Para utilizar diretamento em sua máquina siga os passos abaixo
 
-### Making a Progressive Web App
+### Pré - requisito
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Primeiro de tudo você precisa ter o Node instalado em sua máquina para rodar o gerenciador de pacotes npm:
 
-### Advanced Configuration
+### Instalação
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+1. Clone o repositório
+   ```sh
+   git clone ***
+   ```
+2. Instale os pacotes de dependencias
+   ```sh
+   npm install
+   ```
+3. Rode em ambiente de desenvolvimento
+   ```sh
+   npm start
+   ```
 
-### Deployment
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- USAGE EXAMPLES -->
+## Usabilidade
+
+Através dos botões você consegue navegar entre os usuário assim como criar, editar e remover seus registros.
+
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+
+
+<!-- ROADMAP -->
+<!-- ## Roadmap
+- [x] Add Changelog
+- [x] Add back to top links
+- [ ] Add Additional Templates w/ Examples
+- [ ] Add "components" document to easily copy & paste sections of the readme
+- [ ] Multi-language Support
+    - [ ] Chinese
+    - [ ] Spanish
+See the [open issues](https://github.com/feliperucunha/next-portfolio/issues) for a full list of proposed features (and known issues).
+<p align="right">(<a href="#top">back to top</a>)</p> -->
+
+
+
+
+
+
+
+## Autor
+
+<a href="https://github.com/fabiodeandrade">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/83290975?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Fábio de Andrade</b></sub></a>
+ <br />
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+## Contato
+
+[<img align="left" alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />](mailto:fabiodeandradecontato@gmail.com?subject=[GitHub]%20Hey,%20Fabio%20Andrade)
+[<img align="left" alt="Linkedin" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+
+[<img align="left" alt="Whatsapp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />][whatsapp]
+[<img align="left" alt="Instagram" src="https://img.shields.io/badge/<faiboscript>-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />][instagram] 
+
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+
+
+
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[product-screenshot]: images/screenshot.png
+
+[whatsapp]: https://wa.me/5591984497281
+[instagram]: https://www.instagram.com/faiboscript
+[linkedin]: https://www.linkedin.com/in/fabiodeandrad/

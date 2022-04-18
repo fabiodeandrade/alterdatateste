@@ -1,0 +1,56 @@
+.check {
+  width: 400px;
+  height: 164px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #d9e1e7cc;
+  border-radius: 10px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.checkBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+
+.confirm {
+  background-color: #1ad598;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  transition: all ease 0.6s;
+}
+
+.confirm:hover {
+  background-color: #10815c;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #809fb8;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 140px;
+  height: 50px;
+  transition: all ease 0.6s;
+}
+
+.cancel:hover {
+  background-color: #5a7081;
+  cursor: pointer;
+}

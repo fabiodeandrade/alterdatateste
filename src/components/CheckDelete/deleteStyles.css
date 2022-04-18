@@ -1,0 +1,18 @@
+.checkDelete {
+  width: 400px;
+  height: 164px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #d9e1e7cc;
+  border-radius: 10px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.checkDelete h5 {
+    margin: .5rem 0;
+}

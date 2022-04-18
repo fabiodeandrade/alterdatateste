@@ -1,0 +1,68 @@
+.editMail {
+  width: 400px;
+  height: 266px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #d9e1e7cc;
+  border-radius: 10px;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.editMail input {
+  width: 336px;
+  border: 2px solid #d9e1e7;
+  padding: 10px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.checkBtns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.confirm,
+.cancel {
+  border: none;
+  border-radius: 10px;
+  transition: all ease .6s;
+}
+
+.confirm {
+  background-color: #1ad598;
+
+  width: 130px;
+  height: 2rem;
+  color: white;
+}
+
+.cancel {
+ background-color: #ea3a3d;
+ color: white;
+ width: 130px;
+ height: 2rem; 
+}
+
+.confirm:hover {
+  background-color: #139b6e;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  background-color: #852022;
+  cursor: pointer;
+}
+
+.edit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 1rem;
+}

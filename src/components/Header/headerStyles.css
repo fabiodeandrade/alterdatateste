@@ -1,0 +1,26 @@
+.headerInfo {
+  width: 100%;
+  display: flex;
+  background-color: #00dbff;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0.3rem;
+  font-size: 16px;
+  height: 32px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../../assets/Fundo@2x.png") center;
+  background-size: cover;
+  width: 100%;
+}
+
+.main img {
+  padding: 3rem;
+  width: 407px;
+  height: 168;
+}

@@ -1,0 +1,134 @@
+.dashboard {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.users {
+  border: 1px solid #d9e1e7cc;
+  width: 344px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.users h2 {
+  color: #1ad598;
+  font-size: 42px;
+}
+
+.users h3 {
+  color: #06152b;
+  font-size: 20px;
+}
+
+.topDash {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 0;
+  width: 80%;
+}
+
+.topDash button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1ad598;
+  width: 344px;
+  height: 72px;
+  padding: 16px;
+  border-radius: 15px;
+  color: white;
+  font-size: 22px;
+  border: none;
+  transition: all ease 0.6s;
+}
+
+.topDash button:hover {
+  background-color: #14a071;
+  cursor: pointer;
+}
+
+.topDash img {
+  width: 33px;
+}
+
+.infoDash {
+  background-image: url("../../assets//mask1.png");
+  background-size: cover;
+  height: 242px;
+  width: 1090px;
+  padding: 31px 48px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.info p {
+  padding-top: 16px;
+  font-size: 18px;
+}
+
+.info h3 {
+  font-size: 22px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resetUser {
+  background-color: #f0ad4e;
+  border: none;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
+  transition: all ease 0.6s;
+}
+
+.resetUser:hover {
+  cursor: pointer;
+  background-color: #a87937;
+}
+
+.deleteUsers {
+  border: none;
+  background-color: #ea3a3d;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  border-radius: 15px;
+  margin-left: 24px;
+  transition: all ease 0.6s;
+}
+
+.deleteUsers:hover {
+  background-color: #a52c2e;
+  cursor: pointer;
+}
+
+.dashboard a {
+  text-decoration: none;
+}
