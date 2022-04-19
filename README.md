@@ -14,16 +14,16 @@
   <h3 align="center">Teste Front End - Alterdata</h3>
 
   <p align="center">
-    An awesome portfolio that contains my career story.
+    Teste front end desenvolvido para a Alterdata
     <br />
-    <a href="***"><strong>Explore o código »</strong></a>
+    <a href="https://github.com/fabiodeandrade/alterdatateste"><strong>Explore o código »</strong></a>
     <br />
     <br />
-    <a href="****">Veja uma demonstração</a>
+    <a href="https://alterdatateste.vercel.app/">Veja uma demonstração</a>
     ·
-    <a href="***">Reporte Problemas</a>
+    <a href="https://github.com/fabiodeandrade/alterdatateste/issues">Reporte Problemas</a>
     ·
-    <a href="***">Solicite novidades</a>
+    <a href="https://github.com/fabiodeandrade/alterdatateste/issues">Solicite novidades</a>
   </p>
 </div>
 
@@ -91,7 +91,7 @@ Primeiro de tudo você precisa ter o Node instalado em sua máquina para rodar o
 
 1. Clone o repositório
    ```sh
-   git clone ***
+   git clone https://github.com/fabiodeandrade/alterdatateste
    ```
 2. Instale os pacotes de dependencias
    ```sh
@@ -113,26 +113,6 @@ Através dos botões você consegue navegar entre os usuário assim como criar, 
 
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
-
-
-
-<!-- ROADMAP -->
-<!-- ## Roadmap
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-See the [open issues](https://github.com/feliperucunha/next-portfolio/issues) for a full list of proposed features (and known issues).
-<p align="right">(<a href="#top">back to top</a>)</p> -->
-
-
-
-
-
-
 
 ## Autor
 
