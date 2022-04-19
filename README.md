@@ -48,7 +48,7 @@
     </li>
     <li><a href="#usage">Usabilidade</a></li>
     <!-- <li><a href="#roadmap">Roadmap</a></li> -->
-    <li><a href="#contributing">Contribuiçao</a></li>
+    <li><a href="#test">Testes</a></li>
     <li><a href="#license">Licença</a></li>
     <li><a href="#contact">Contato</a></li>
     
@@ -123,6 +123,9 @@ Através dos botões você consegue navegar entre os usuário assim como criar, 
  <br />
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
+
+## Teste
+ - Próximo Passo - Foi iniciado os testes dos componentes, como próximo passo será atingir 100% de coverage.
 
 ## Contato
 
